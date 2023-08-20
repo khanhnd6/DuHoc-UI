@@ -427,7 +427,6 @@ footer p a:hover {
     color: #fff;
     padding: 7rem 0;
     background-color: #141d2a; 
-    margin-top: 55px;
   }
     .footer-20192 .container {
       position: relative; 
@@ -637,6 +636,7 @@ footer p a:hover {
   .news-box .border-box{
     border: 1px solid rgba(0,0,0,0.1);
     margin-bottom: 20px;
+    background-color: white;
   }
 
   .border-box .news-text-box{
@@ -926,6 +926,73 @@ footer p a:hover {
     font-weight: 600;
   }
 
+  /* korea-uni-bg */
+  .korea-uni-bg{
+    background-image: url("./assets/images/thumb/korea-university-image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 55px;
+  }
+
+  /* register-form */
+
+  .register-form{
+
+  }
+
+  #register-form{
+    
+    background-color: var(--red);
+    border-radius: 15px;
+    padding: 20px;
+  }
+
+  
+  .register-form .title{
+    padding: 16px 0 12px 0;
+  }
+
+  .register-form .title h6{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+
+  
+  .register-form  input{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px 8px 8px 18px;
+    border: 0;
+    border-radius: 5px;
+  }
+
+  @media (max-width: 1280px){
+    
+    .register-form  input::placeholder{
+      font-size: 13px;
+    }
+
+  }
+
+
+
+
+  #sent{
+    text-transform: uppercase;
+    background-color: #46b834;
+    color: white;
+    padding: 4px 25px;
+    opacity: 0.9;
+    margin-top: 10px;
+    transition: all .2s;
+  }
+
+  
+  #sent:hover{
+    opacity: 1;
+  }
   
   /* re style container */
 
