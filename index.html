@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/e32d8cf0f1.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Du hoc</title>
+</head>
+<body>
+    <header class="main-header clearfix" role="header">
+        <div class="logo">
+            LOGO
+        </div>
+        <nav id="menu" class="main-nav" role="navigation">
+          <ul class="main-menu">
+            <li><a href="#">Về chúng tôi</a></li>
+            <li><a href="#">Du học Hàn Quốc</a>
+              <ul class="sub-menu">
+                <li><a href="#">Trường Đại học Hàn Quốc</a></li>
+                <li><a href="#">Dịch vụ du học Hàn Quốc</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Đào tạo tiếng Hàn</a>
+              <ul class="sub-menu">
+                <li><a href="#">Khóa học tiếng Hàn</a></li>
+                <li><a href="#">Kiến thức tiếng Hàn</a></li>
+                <li><a href="#">Lịch khai giảng</a></li>
+              </ul>
+            </li>
+            <li><a href = '#'>Tin tức</a></li>
+            <li><a href = '#'>Liên hệ</a></li>
+            <li><a href="#">Đăng ký tư vấn</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-button"><i class="fa fa-bars"></i></div>
+    </header>
+
+    <div class="container">
+      <div id="banner-slider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#banner-slider" data-bs-slide-to="0" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#banner-slider" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#banner-slider" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#banner-slider" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#banner-slider" data-bs-slide-to="4"></button>
+          <button type="button" data-bs-target="#banner-slider" data-bs-slide-to="5"></button>
+        </div>
+        <div class="carousel-inner">
+          <a href="#" class="carousel-item active">
+            <img class="d-block w-100" src="./assets/slider/banner-1.jpg">
+          </a>
+          <a href="#" class="carousel-item">
+            <img class="d-block w-100" src="./assets/slider/banner-2.jpg">
+          </a>
+          <a href="#" class="carousel-item">
+            <img class="d-block w-100" src="./assets/slider/banner-1.jpg">
+          </a>
+          <a href="#" class="carousel-item">
+            <img class="d-block w-100" src="./assets/slider/banner-2.jpg">
+          </a>
+          <a href="#" class="carousel-item">
+            <img class="d-block w-100" src="./assets/slider/banner-1.jpg">
+          </a>
+          <a href="#" class="carousel-item">
+            <img class="d-block w-100" src="./assets/slider/banner-2.jpg">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="main py-3">
+      <div class="container ">
+        <div class="row position-relative">
+          
+          <div class="col-12 col-sm-12 col-md-9 col-lg-10">
+            <div class="main-section">
+              <h2 class="main-section-title">Vì sao nên chọn chúng tôi</h2>
+              <div class="main-boxes">
+                <div class="row">
+                  <div class="col-lg-3 col-md-6 main-box px-4">
+                    <img src="./assets/images/thumb/teacher.jpg" class="img-round-thumb">
+                    <h4 class="text-uppercase text-black mt-4 mb-1">Giáo viên người Hàn trực tiếp phỏng vấn</h4>
+                    <p class="text-sm">Luyện phỏng vấn 1-1</p>
+                  </div>
+                  <div class="col-lg-3 col-md-6 main-box px-4">
+                    <img src="./assets/images/thumb/money.jpg" class="img-round-thumb">
+                    <h4 class="text-uppercase text-black mt-4 mb-1">Chi phí hợp lý, minh bạch</h4>
+                    <p class="text-sm">Không phát sinh<br>Không qua trung gian</p>
+                  </div>
+                  <div class="col-lg-3 col-md-6 main-box px-4">
+                    <img src="./assets/images/thumb/visa.jpg" class="img-round-thumb">
+                    <h4 class="text-uppercase text-black mt-4 mb-1">Hoàn phí 100%</h4>
+                    <p class="text-sm">Nếu bị Đại Sứ Quán từ chối Visa không lý do</p>
+                  </div>
+                  <div class="col-lg-3 col-md-6 main-box px-4">
+                    <img src="./assets/images/thumb/sociaty.jpg" class="img-round-thumb">
+                    <h4 class="text-uppercase text-black mt-4 mb-1">Cộng đồng du học chất lượng</h4>
+                    <p class="text-sm">Được tham gia cộng đồng du học sinh chất lượng</p>
+                  </div>
+                </div>
+              </div>  
+            </div>
+
+            <div class="circle-section">
+              <div class="circle-container">
+                
+                <div class="row d-flex justify-content-around align-items-center">
+
+                  <a href="#" class="col-1 circle-box">
+                    <div class="circle-box-icon">
+                      <img src="./assets/images/icons/south-korea.png">
+                    </div>
+                    <div class="circle-box-content">
+                      <p>Văn hóa</p>
+                    </div>
+                  </a>
+
+                  
+                  <a href="#" class="col-1 circle-box">
+                    <div class="circle-box-icon">
+                    </div>
+                    <div class="circle-box-content">
+                      <p>Điều kiện du học Hàn Quốc</p>
+                    </div>
+                  </a>
+                  
+                  <a href="#" class="col-1 circle-box">
+                    <div class="circle-box-icon">
+                    </div>
+                    <div class="circle-box-content">
+                      <p>Học tiếng Hàn</p>
+                    </div>
+                  </a>
+                  
+                  <a href="#" class="col-1 circle-box">
+                    <div class="circle-box-icon">
+                    </div>
+                    <div class="circle-box-content">
+                      <p>Chọn trường & Ngành học</p>
+                    </div>
+                  </a>
+                  
+                  <a href="#" class="col-1 circle-box">
+                    <div class="circle-box-icon">
+                    </div>
+                    <div class="circle-box-content">
+                      <p>Chuẩn bị hồ sơ</p>
+                    </div>
+                  </a>
+                  
+                  <a href="#" class="col-1 circle-box">
+                    <div class="circle-box-icon">
+                    </div>
+                    <div class="circle-box-content">
+                      <p>Xin visa</p>
+                    </div>
+                  </a>
+                  
+                  <a href="#" class="col-1 circle-box">
+                    <div class="circle-box-icon">
+                    </div>
+                    <div class="circle-box-content">
+                      <p>Tìm chỗ ở tại Hàn Quốc</p>
+                    </div>
+                  </a>
+                  
+                  <a href="#" class="col-1 circle-box">
+                    <div class="circle-box-icon">
+                    </div>
+                    <div class="circle-box-content">
+                      <p>Tìm việc làm tại Hàn Quốc</p>
+                    </div>
+                  </a>
+                  
+                  <a href="#" class="col-1 circle-box">
+                    <div class="circle-box-icon">
+                    </div>
+                    <div class="circle-box-content">
+                      <p>Tin tức</p>
+                    </div>
+                  </a>
+                  
+
+                </div>
+              </div>
+            </div>
+            
+            <div class="main-section">
+              <h2 class="main-section-title">Thông tin mới về du học Hàn Quốc</h2>
+              <div class="main-boxes">
+                <div class="row">
+                  <div class="col-lg-3 col-md-6 main-box text-left news-box">
+                    <div class="border-box">
+                      <img src="./assets/images/news/hoc-bong-news.jpg" class="news-thumb">
+                      <div class="news-text-box">
+                        <h4 class="text-uppercase text-black mt-3 mb-0">
+                          <a class="text-black" href="#">4 loại học bổng du học Hàn Quốc và 6 lưu ý để chuẩn bị một bộ hồ sơ chỉn chu nhất</a>
+                        </h4>
+                        <p class="text-sm news-text">Du học Hàn Quốc bao nhiêu tiền? là vấn đề đầu tiên mà hầu hết các bậc phụ huynh và các bạn học sinh quan tâm, thắc mắc khi có ý định đi du học ở xứ sở kim chi.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 main-box text-left news-box">
+                    <div class="border-box">
+                      <img src="./assets/images/news/hoc-bong-news.jpg" class="news-thumb">
+                      <div class="news-text-box">
+                        <h4 class="text-uppercase text-black mt-3 mb-0">
+                          <a class="text-black" href="#">4 loại học bổng du học Hàn Quốc và 6 lưu ý để chuẩn bị một bộ hồ sơ chỉn chu nhất</a>
+                        </h4>
+                        <p class="text-sm news-text">Du học Hàn Quốc bao nhiêu tiền? là vấn đề đầu tiên mà hầu hết các bậc phụ huynh và các bạn học sinh quan tâm, thắc mắc khi có ý định đi du học ở xứ sở kim chi.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 main-box text-left news-box">
+                    <div class="border-box">
+                      <img src="./assets/images/news/hoc-bong-news.jpg" class="news-thumb">
+                      <div class="news-text-box">
+                        <h4 class="text-uppercase text-black mt-3 mb-0">
+                          <a class="text-black" href="#">4 loại học bổng du học Hàn Quốc và 6 lưu ý để chuẩn bị một bộ hồ sơ chỉn chu nhất</a>
+                        </h4>
+                        <p class="text-sm news-text">Du học Hàn Quốc bao nhiêu tiền? là vấn đề đầu tiên mà hầu hết các bậc phụ huynh và các bạn học sinh quan tâm, thắc mắc khi có ý định đi du học ở xứ sở kim chi.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 main-box text-left news-box">
+                    <div class="border-box">
+                      <img src="./assets/images/news/hoc-bong-news.jpg" class="news-thumb">
+                      <div class="news-text-box">
+                        <h4 class="text-uppercase text-black mt-3 mb-0">
+                          <a class="text-black" href="#">4 loại học bổng du học Hàn Quốc và 6 lưu ý để chuẩn bị một bộ hồ sơ chỉn chu nhất</a>
+                        </h4>
+                        <p class="text-sm news-text">Du học Hàn Quốc bao nhiêu tiền? là vấn đề đầu tiên mà hầu hết các bậc phụ huynh và các bạn học sinh quan tâm, thắc mắc khi có ý định đi du học ở xứ sở kim chi.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 main-box text-left news-box">
+                    <div class="border-box">
+                      <img src="./assets/images/news/hoc-bong-news.jpg" class="news-thumb">
+                      <div class="news-text-box">
+                        <h4 class="text-uppercase text-black mt-3 mb-0">
+                          <a class="text-black" href="#">4 loại học bổng du học Hàn Quốc và 6 lưu ý để chuẩn bị một bộ hồ sơ chỉn chu nhất</a>
+                        </h4>
+                        <p class="text-sm news-text">Du học Hàn Quốc bao nhiêu tiền? là vấn đề đầu tiên mà hầu hết các bậc phụ huynh và các bạn học sinh quan tâm, thắc mắc khi có ý định đi du học ở xứ sở kim chi.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 main-box text-left news-box">
+                    <div class="border-box">
+                      <img src="./assets/images/news/hoc-bong-news.jpg" class="news-thumb">
+                      <div class="news-text-box">
+                        <h4 class="text-uppercase text-black mt-3 mb-0">
+                          <a class="text-black" href="#">4 loại học bổng du học Hàn Quốc và 6 lưu ý để chuẩn bị một bộ hồ sơ chỉn chu nhất</a>
+                        </h4>
+                        <p class="text-sm news-text">Du học Hàn Quốc bao nhiêu tiền? là vấn đề đầu tiên mà hầu hết các bậc phụ huynh và các bạn học sinh quan tâm, thắc mắc khi có ý định đi du học ở xứ sở kim chi.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 main-box text-left news-box">
+                    <div class="border-box">
+                      <img src="./assets/images/news/hoc-bong-news.jpg" class="news-thumb">
+                      <div class="news-text-box">
+                        <h4 class="text-uppercase text-black mt-3 mb-0">
+                          <a class="text-black" href="#">4 loại học bổng du học Hàn Quốc và 6 lưu ý để chuẩn bị một bộ hồ sơ chỉn chu nhất</a>
+                        </h4>
+                        <p class="text-sm news-text">Du học Hàn Quốc bao nhiêu tiền? là vấn đề đầu tiên mà hầu hết các bậc phụ huynh và các bạn học sinh quan tâm, thắc mắc khi có ý định đi du học ở xứ sở kim chi.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 main-box text-left news-box">
+                    <div class="border-box">
+                      <img src="./assets/images/news/hoc-bong-news.jpg" class="news-thumb">
+                      <div class="news-text-box">
+                        <h4 class="text-uppercase text-black mt-3 mb-0">
+                          <a class="text-black" href="#">4 loại học bổng du học Hàn Quốc và 6 lưu ý để chuẩn bị một bộ hồ sơ chỉn chu nhất</a>
+                        </h4>
+                        <p class="text-sm news-text">Du học Hàn Quốc bao nhiêu tiền? là vấn đề đầu tiên mà hầu hết các bậc phụ huynh và các bạn học sinh quan tâm, thắc mắc khi có ý định đi du học ở xứ sở kim chi.</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+              </div>  
+
+              <div class="register-box">
+                <div class="register-content">
+                  <div class="row">
+                    <div class="col-4 paper-plane">
+                      <img src="./assets/images/icons/south-korea-paper-plane.png">
+                    </div>    
+                    <div class="col-8 d-flex align-items-md-center register-content-text-box">
+                      <div class="register-content-text w-100">
+                        <div class="register-content-top">
+                          <h6>Đăng ký tư vấn du học Hàn Quốc</h6>
+                        </div>
+                        <div class="register-content-bottom">
+                          <div class="row">
+                            <div class="col-md-12 col-lg-6 ">
+                              <div class="row">
+                                <div class="col-4">
+                                  <p style="color: var(--red); font-weight: 600;">FACEBOOK:</p>
+                                </div>
+                                <div class="col-8">
+                                  <a href="#" style="text-decoration: underline; color: black;">DU HỌC HÀN QUỐC</a>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-4">
+                                  <p style="color: var(--red); font-weight: 600;">SĐT:</p>
+                                </div>
+                                <div class="col-8">
+                                  <p>+84 234 567 89</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                              <div class="row">
+                                <div class="col-4">
+                                  <p style="color: var(--red); font-weight: 600;">EMAIL:</p>
+                                </div>
+                                <div class="col-8">
+                                  <p>duhochanquoc@abc.com.vn</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="main-section">
+              <h2 class="main-section-title">Học viên</h2>
+              <p>Hơn 1000 học viên của chúng tôi đang sinh sống, học tập tại Hàn Quốc.</p>
+              <div class="main-boxes container">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 text-left stu-box">
+                    <div class="row">
+                      <div class="col-5 px-0">
+                        <div class="box-avt">
+                          <img src="./assets/images/thumb/avt-1.jpg">
+                        </div>    
+                      </div>
+                      <div class="col-7 px-0">
+                        <div class="name">Trần Thị Ngọc Anh</div>
+                        <ul>
+                          <li><b>Tiktoker: Rina</b> (hơn 750 Nghìn người theo dõi)</li>
+                          <li>Sinh viên Đại học Hansung</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-lg-4 col-md-6 text-left stu-box">
+                    <div class="row">
+                      <div class="col-5 px-0">
+                        <div class="box-avt">
+                          <img src="./assets/images/thumb/avt-1.jpg">
+                        </div>    
+                      </div>
+                      <div class="col-7 px-0">
+                        <div class="name">Trần Thị Ngọc Anh</div>
+                        <ul>
+                          <li><b>Tiktoker: Rina</b> (hơn 750 Nghìn người theo dõi)</li>
+                          <li>Sinh viên Đại học Hansung</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-lg-4 col-md-6 text-left stu-box">
+                    <div class="row">
+                      <div class="col-5 px-0">
+                        <div class="box-avt">
+                          <img src="./assets/images/thumb/avt-1.jpg">
+                        </div>    
+                      </div>
+                      <div class="col-7 px-0">
+                        <div class="name">Trần Thị Ngọc Anh</div>
+                        <ul>
+                          <li><b>Tiktoker: Rina</b> (hơn 750 Nghìn người theo dõi)</li>
+                          <li>Sinh viên Đại học Hansung</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-lg-4 col-md-6 text-left stu-box">
+                    <div class="row">
+                      <div class="col-5 px-0">
+                        <div class="box-avt">
+                          <img src="./assets/images/thumb/avt-1.jpg">
+                        </div>    
+                      </div>
+                      <div class="col-7 px-0">
+                        <div class="name">Trần Thị Ngọc Anh</div>
+                        <ul>
+                          <li><b>Tiktoker: Rina</b> (hơn 750 Nghìn người theo dõi)</li>
+                          <li>Sinh viên Đại học Hansung</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-lg-4 col-md-6 text-left stu-box">
+                    <div class="row">
+                      <div class="col-5 px-0">
+                        <div class="box-avt">
+                          <img src="./assets/images/thumb/avt-1.jpg">
+                        </div>    
+                      </div>
+                      <div class="col-7 px-0">
+                        <div class="name">Trần Thị Ngọc Anh</div>
+                        <ul>
+                          <li><b>Tiktoker: Rina</b> (hơn 750 Nghìn người theo dõi)</li>
+                          <li>Sinh viên Đại học Hansung</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-lg-4 col-md-6 text-left stu-box">
+                    <div class="row">
+                      <div class="col-5 px-0">
+                        <div class="box-avt">
+                          <img src="./assets/images/thumb/avt-1.jpg">
+                        </div>    
+                      </div>
+                      <div class="col-7 px-0">
+                        <div class="name">Trần Thị Ngọc Anh</div>
+                        <ul>
+                          <li><b>Tiktoker: Rina</b> (hơn 750 Nghìn người theo dõi)</li>
+                          <li>Sinh viên Đại học Hansung</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+  
+                </div>
+  
+              </div>
+            </div>
+            
+            <div class="main-section">
+              <h2 class="main-section-title">Trường Đại học thuộc Top</h2>
+              <p>Trung tâm hợp tác với Top các trường Đại học Hàn Quốc. </p>
+              <div id="schools-slider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#schools-slider" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                  <button type="button" data-bs-target="#schools-slider" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#schools-slider" data-bs-slide-to="2"></button>
+                  <button type="button" data-bs-target="#schools-slider" data-bs-slide-to="3"></button>
+                  <button type="button" data-bs-target="#schools-slider" data-bs-slide-to="4"></button>
+                  <button type="button" data-bs-target="#schools-slider" data-bs-slide-to="5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="schools">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                    </div>
+                  </div> 
+
+                  <div class="carousel-item ">
+                    <div class="schools">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                    </div>
+                  </div> 
+
+                  <div class="carousel-item ">
+                    <div class="schools">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                    </div>
+                  </div> 
+
+                  <div class="carousel-item ">
+                    <div class="schools">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                    </div>
+                  </div> 
+
+                  <div class="carousel-item ">
+                    <div class="schools">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                    </div>
+                  </div> 
+                  <div class="carousel-item ">
+                    <div class="schools">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                      <img src="./assets/slider/HUFS.png">
+                    </div>
+                  </div> 
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-sm-12 col-md-3 col-lg-2 py-4 position-sticky sidebar-container">
+            <div class="sidebar">
+              <aside>
+                <a href="#">
+                  <img src="./assets/images/widgets/widget-1.png">
+                </a>
+                <a href="#">
+                  <img src="./assets/images/widgets/widget-1.png">
+                </a>
+              
+              </aside>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12  col-sm-12 col-md-4  col-lg-3 "></div>
+      </div>
+    </div>
+
+
+
+    <!-- Phone and Email -->
+
+    <div class="utils">
+      <div class="util-box">
+        <div class="phone">
+          <img src="./assets//images/icons/phone-call-icon.png">
+        </div>  
+        <!-- <div class="util-desc">
+          <p>+84 123 1234</p>
+        </div> -->
+      </div>
+      <div class="util-box">
+        <div class="regist">
+          <img src="./assets//images/icons/email-icon.png">
+        </div>
+        
+        <!-- <div class="util-desc">
+          <p>abc123@abc.korea.com</p>
+        </div> -->
+      </div>
+    </div>
+
+
+  
+  <footer class="footer-20192">
+    <div class="site-section">
+      <div class="container">
+
+        <div class="cta d-block d-md-flex align-items-center justify-content-around px-5 footer-banner">
+          <div>
+            <h2 class="mb-0">Need some advice for studying abroad?</h2>
+            <h3 class="text-dark">Let's get started!</h3>
+          </div>
+          <div class="ml-auto">
+            <a href="#" class="btn btn-dark rounded-0 py-3 px-5">Contact us</a>
+          </div>
+        </div>
+
+        <div class="row footer-cols">
+
+          <div class="col-sm logo footer-cols-text">
+            <a href="#" class="footer-logo" style="font-weight: bold;">LOGO</a>
+            <p class="copyright py-2">
+              <small>&copy; 2023</small>
+            </p>
+          </div> 
+          <div class="col-sm text-left footer-cols-text">
+            <h3>Company</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="col-sm text-left footer-cols-text">
+            <h3>Study Abroad Programs</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#">Lorem ipsum dolor</a></li>
+              <li><a href="#">Lorem ipsum dolor</a></li>
+              <li><a href="#">Lorem ipsum dolor</a></li>
+              <li><a href="#">Lorem ipsum dolor</a></li>
+            </ul>
+          </div>
+          <div class="col-sm text-left footer-cols-text">
+            <h3>Further Information</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li style="color: #d0d3e3;"><i class="fa-solid fa-phone" style="color: var(--red);"></i> +84 123 1234</li>
+              <li style="color: #d0d3e3;"><i class="fa-solid fa-envelope" style="color: var(--red);"></i> abc123@gmail.com</li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-cols-text">
+            <h3>Follow us</h3>
+            <ul class="list-unstyled social">
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+            </ul>
+          </div>
+          
+        </div>
+
+        <div class="row pt-4">
+          <div class="container">
+            <div class="text text-left">
+              <h6 class="py-0 my-0" style="text-transform: uppercase; color: var(--red);">Đăng ý nhận thông tin du học</h6>
+              <p class="py-3" style="text-transform: unset; font-weight: 400;">Hãy nhập địa chỉ email của bạn vào ô dưới đây để có thể nhận được tất cả các thông tin mới nhất về du học Hàn Quốc bạn nhé!</p>
+            </div>  
+            <div class="input-field text-left row">
+              <form class="col-12 col-sm-6">
+                <div class="input-group mb-3">
+                  <input type="email" class="form-control" placeholder="Nhập Email của bạn">
+                  <button class="btn btn-outline-secondary px-4 submit-email" type="submit">
+                    <i class="fa-regular fa-paper-plane"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+    <script src="./main.js" defer></script>
+</body>
+</html>
